@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Playground = () => {
   return (
@@ -26,6 +26,8 @@ const Playground = () => {
           Farah Karim
         </Link>
       </div>
+      <hr className="w-full mt-12" />
+      {/* <Outlet/> */}
     </div>
   );
 };
